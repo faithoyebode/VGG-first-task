@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    background-image: linear-gradient(145deg, #26F596, #0499F2);
+}
+.container{
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.page-title{
+    position: absolute;
+    width: 450px;
+    margin: 0 auto;
+    top: 20px;
+    left: -140px;
+    right: 0px;
+    z-index: 2;
+    font-size: 2.5rem; 
+    font-style: italic;
+}
+/*
+ ***FORM SECTION*** 
+ */
+.form-section{
+    color: #3c3c3c;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-weight: 400;
+    width: 500px;
+    border-radius: 10px;
+    height: 80vh;
+}
+#msg{
+    height: 200px;
+}
+#name~p{
+    display: none;
+}
+#email~p{
+    display: none;
+}
+#msg+p{
+    display: none;
+}
+input[type = "text"]{
+    background-color: #3f3f3f3c;
+}
+input[value = "Sign Up"]{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: linear-gradient(145deg, #26F596, #0499F2);
+}
+/*
+ ***ADDRESS SECTION*** 
+ */
+li span.fa-li{
+    padding-right: 3rem;
+}
+.col-md-7{
+    margin: 0 auto;
+}
+
